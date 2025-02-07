@@ -1,68 +1,66 @@
-Calculator App
+# Simple Calculator App
 
-Overview
+![Calculator App](https://img.shields.io/badge/Status-Complete-brightgreen) 
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-The Simple Calculator App is a web-based calculator that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The interface is user-friendly and built using HTML, CSS, and JavaScript.
+The **Simple Calculator App** is a web-based calculator that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The interface is user-friendly and built using **HTML**, **CSS**, and **JavaScript**.
 
-Features
+---
 
-Perform basic arithmetic operations (+, -, *, /)
+## Features ✨
 
-Supports decimal numbers
+- Perform basic arithmetic operations (`+`, `-`, `*`, `/`)
+- Supports decimal numbers
+- Includes a clear (`C`) button to reset the display
+- Responsive and interactive UI
+- Error handling for invalid inputs
 
-Includes a clear (C) button to reset the display
+---
 
-Responsive and interactive UI
+## Technologies Used 🛠️
 
-Error handling for invalid inputs
+- **HTML**: Structure of the calculator
+- **CSS (Tailwind CSS CDN)**: Styling the calculator
+- **JavaScript**: Logic for button operations
 
-Technologies Used
+---
 
-HTML: Structure of the calculator
-
-CSS (Tailwind CSS CDN): Styling the calculator
-
-JavaScript: Logic for button operations
-
-Project Structure
-
+## Project Structure 📂
 calculator-app/
-│── index.html      # Main HTML structure
-│── style.css       # Styling for the calculator
-│── script.js       # JavaScript for functionality
+│── index.html # Main HTML structure
+│── style.css # Styling for the calculator
+│── script.js # JavaScript for functionality
 
-Setup Instructions
+Copy
 
-Clone the repository or create an index.html, style.css, and script.js file.
+---
 
-Ensure that the files are linked properly in index.html.
+## Setup Instructions 🚀
 
-Open index.html in a web browser to run the calculator.
+1. Clone the repository or create an `index.html`, `style.css`, and `script.js` file.
+2. Ensure that the files are linked properly in `index.html`.
+3. Open `index.html` in a web browser to run the calculator.
 
-Usage
+---
 
-Enter numbers by clicking the respective buttons.
+## Usage 🖱️
 
-Use the arithmetic operators (+, -, *, /) to perform calculations.
+1. Enter numbers by clicking the respective buttons.
+2. Use the arithmetic operators (`+`, `-`, `*`, `/`) to perform calculations.
+3. Press `=` to display the result.
+4. Press `C` to clear the display.
 
-Press = to display the result.
+---
 
-Press C to clear the display.
+## Code Explanation 💻
 
-Code Explanation
-
-HTML (index.html)
-
+### HTML (`index.html`)
 Defines the calculator layout with an input field for display and buttons for numbers and operations.
 
-<input type="text" id="display" readonly />
-<button>1</button>
-<button>+</button>
-
-JavaScript (script.js)
-
+### JavaScript (`script.js`)
 Handles button clicks and evaluates expressions.
 
+```javascript
 const display = document.getElementById('display');
 const buttons = document.querySelectorAll('.buttons button');
 
@@ -83,14 +81,8 @@ buttons.forEach(button => {
     });
 });
 
-Future Enhancements
-
-Add a Backspace button
-
-Implement keyboard support
-
-Improve UI with animations
-
-Conclusion
-
+Conclusion 🎉
 This Simple Calculator App is a beginner-friendly project that demonstrates how HTML, CSS, and JavaScript work together to create an interactive web application.
+
+About ℹ️
+A web-based calculator that allows users to perform basic arithmetic operations.
